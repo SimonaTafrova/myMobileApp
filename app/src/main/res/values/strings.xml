@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="todo">TODO</string>
+    <string name="we_re_so_happy_to_have_you_on_board">We\'re so happy to have you on board!</string>
 </resources>
