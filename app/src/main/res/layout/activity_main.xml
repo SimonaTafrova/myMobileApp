@@ -17,16 +17,17 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
         android:onClick="register"
-        android:text="Start playing"
+        android:text="@string/start_playing"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hello" />
+        app:layout_constraintTop_toBottomOf="@+id/hello"
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Welcome to my first mobile application!"
+        android:text="@string/welcome_to_my_first_mobile_application"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,6 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/an_avatar_picture" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

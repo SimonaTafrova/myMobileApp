@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="todo">TODO</string>
     <string name="we_re_so_happy_to_have_you_on_board">We\'re so happy to have you on board!</string>
+    <string name="welcome_to_my_first_mobile_application">Welcome to my first mobile application!</string>
+    <string name="an_avatar_picture">an avatar picture</string>
+    <string name="start_playing">Start playing</string>
 </resources>
