@@ -13,7 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class PlayActivity extends AppCompatActivity {
-    private final int counter = 0;
+    private int counterO= 0;
+    private int counterX = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,17 +31,29 @@ public class PlayActivity extends AppCompatActivity {
     public void playAMove(View v){
         TextView player = findViewById(R.id.player);
         Button button = (Button) v;
+        TextView winner = findViewById(R.id.winner);
         if(player.getText().equals("Player 1")){
             button.setText("X");
-            button.setTextSize(55);
-            button.setEnabled(false);
            player.setText("Player 2");
+           counterX++;
         } else {
             button.setText("O");
-            button.setTextSize(55);
-            button.setEnabled(false);
             player.setText("Player 1");
+            counterO++;
         }
+
+        button.setTextSize(55);
+        button.setEnabled(false);
+
+        if(counterX + counterO == 9){
+            if(counterX > counterO){
+                winner.setText("Player 1 wins!");
+            } else {
+                winner.setText("Player 2 wins!");
+            }
+        }
+
+
 
 
     }
