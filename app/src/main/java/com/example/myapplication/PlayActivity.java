@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +29,7 @@ public class PlayActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("SetTextI18n")
     public void playAMove(View v){
         TextView player = findViewById(R.id.player);
         Button button = (Button) v;
@@ -42,7 +44,7 @@ public class PlayActivity extends AppCompatActivity {
             counterO++;
         }
 
-        button.setTextSize(55);
+        button.setTextSize(60);
         button.setEnabled(false);
 
         if(counterX + counterO == 9){
