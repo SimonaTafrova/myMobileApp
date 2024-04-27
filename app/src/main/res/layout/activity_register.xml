@@ -70,15 +70,12 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="93dp"
             android:layout_height="84dp"
-            android:layout_marginStart="24dp"
             android:layout_marginTop="160dp"
             android:layout_marginEnd="24dp"
             android:background="@android:drawable/gallery_thumb"
             android:onClick="playAMove"
             android:text="Button"
             app:layout_constraintEnd_toStartOf="@+id/button"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/button2"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
@@ -86,14 +83,12 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="93dp"
             android:layout_height="84dp"
-            android:layout_marginStart="24dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="24dp"
             android:background="@android:drawable/gallery_thumb"
             android:onClick="playAMove"
             android:text="Button"
             app:layout_constraintEnd_toStartOf="@+id/button"
-            app:layout_constraintStart_toEndOf="@+id/button2"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
@@ -114,28 +109,12 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="93dp"
             android:layout_height="84dp"
-            android:layout_marginStart="24dp"
             android:layout_marginTop="280dp"
             android:layout_marginEnd="24dp"
             android:background="@android:drawable/gallery_thumb"
             android:onClick="playAMove"
             android:text="Button"
             app:layout_constraintEnd_toStartOf="@+id/button"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/button2"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/button2"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="93dp"
-            android:layout_height="84dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="40dp"
-            android:background="@android:drawable/gallery_thumb"
-            android:onClick="playAMove"
-            android:text="Button"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
@@ -151,21 +130,6 @@
             android:text="Button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/button10"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="93dp"
-            android:layout_height="84dp"
-            android:layout_marginStart="252dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="24dp"
-            android:background="@android:drawable/gallery_thumb"
-            android:onClick="playAMove"
-            android:text="Button"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
