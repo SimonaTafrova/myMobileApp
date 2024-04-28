@@ -5,4 +5,7 @@
     <string name="welcome_to_my_first_mobile_application">Welcome to my first mobile application!</string>
     <string name="an_avatar_picture">an avatar picture</string>
     <string name="start_playing">Start playing</string>
+    <string name="button">Button</string>
+    <string name="button11">Button</string>
+    <string name="button3">Button</string>
 </resources>
