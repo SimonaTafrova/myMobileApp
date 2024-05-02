@@ -44,7 +44,7 @@ public class PlayActivity extends AppCompatActivity {
             counterO++;
         }
 
-        button.setTextSize(60);
+        button.setTextSize(55);
         button.setEnabled(false);
 
         if(counterX + counterO == 9){
