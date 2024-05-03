@@ -40,7 +40,7 @@ public class PlayActivity extends AppCompatActivity {
            counterX++;
         } else {
             button.setText("O");
-            player.setText("Secons player");
+            player.setText("Second player");
             counterO++;
         }
 
