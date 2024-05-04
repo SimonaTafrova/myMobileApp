@@ -35,7 +35,7 @@ public class PlayActivity extends AppCompatActivity {
         Button button = (Button) v;
         TextView winner = findViewById(R.id.winner);
         if(player.getText().equals("Player 1")){
-            button.setText("X");
+            button.setText("Y");
            player.setText("First player");
            counterX++;
         } else {
@@ -49,7 +49,7 @@ public class PlayActivity extends AppCompatActivity {
 
         if(counterX + counterO == 9){
             if(counterX > counterO){
-                winner.setText("Player 1 wins!");
+                winner.setText("First player wins!");
             } else {
                 winner.setText("Player 2 wins!");
             }
