@@ -51,7 +51,7 @@ public class PlayActivity extends AppCompatActivity {
             if(counterX > counterO){
                 winner.setText("First player wins!");
             } else {
-                winner.setText("Player 2 wins!");
+                winner.setText("Second player wins!");
             }
         }
 
