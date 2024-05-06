@@ -47,13 +47,7 @@ public class PlayActivity extends AppCompatActivity {
         button.setTextSize(60);
         button.setEnabled(false);
 
-        if(counterX + counterO == 9){
-            if(counterX > counterO){
-                winner.setText("First player wins!");
-            } else {
-                winner.setText("Second player wins!");
-            }
-        }
+
 
 
 
