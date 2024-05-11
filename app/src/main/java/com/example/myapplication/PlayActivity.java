@@ -14,8 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class PlayActivity extends AppCompatActivity {
-    private int counterO= 0;
-    private int counterX = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +36,11 @@ public class PlayActivity extends AppCompatActivity {
         if(player.getText().equals("Player 1")){
             button.setText("Y");
            player.setText("First player");
-           counterX++;
+
         } else {
             button.setText("O");
             player.setText("Second player");
-            counterO++;
+
         }
 
         button.setTextSize(50);
