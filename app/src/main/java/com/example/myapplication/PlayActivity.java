@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -32,7 +31,7 @@ public class PlayActivity extends AppCompatActivity {
     public void playAMove(View v){
         TextView player = findViewById(R.id.player);
         Button button = (Button) v;
-        TextView winner = findViewById(R.id.winner);
+
         if(player.getText().equals("Player 1")){
             button.setText("Y");
            player.setText("First player");
