@@ -33,7 +33,7 @@ public class PlayActivity extends AppCompatActivity {
         Button button = (Button) v;
 
         if(player.getText().equals("Player 1")){
-            button.setText("Y");
+            button.setText("X");
            player.setText("First player");
 
         } else {
@@ -42,7 +42,7 @@ public class PlayActivity extends AppCompatActivity {
 
         }
 
-        button.setTextSize(50);
+        button.setTextSize(60);
         button.setEnabled(false);
 
 
