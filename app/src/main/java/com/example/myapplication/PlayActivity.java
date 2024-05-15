@@ -42,7 +42,7 @@ public class PlayActivity extends AppCompatActivity {
 
         }
 
-        button.setTextSize(70);
+        button.setTextSize(60);
         button.setEnabled(false);
 
 
